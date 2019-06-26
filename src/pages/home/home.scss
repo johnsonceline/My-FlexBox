@@ -1,0 +1,178 @@
+page-home {
+
+  .container {
+    background-image: url('../../assets/imgs/building.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 10px;
+
+    .box {
+
+      background-position: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 10px;
+      margin-bottom: .5em;
+
+      div {
+        margin: 1px;
+      }
+    }
+
+    .box>.sub {
+      flex-basis: 70%;
+      height: 40px;
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      border-radius: 5px;
+    }
+
+    .a {
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      flex-basis: 10%;
+      border-radius: 5px;
+    }
+
+    .b {
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      flex-basis: 10%;
+      border-radius: 5px;
+
+    }
+
+    .c {
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      flex-basis: 10%;
+      border-radius: 5px;
+    }
+
+    .box2 {
+      width: 100%;
+      height: 40vh;
+      box-shadow: 0px 0px 10px #17171779;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin: 5px auto;
+      }
+    }
+
+    .box2>.d {
+      width: 30%;
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      opacity: 0.7;
+
+      height: 30px;
+      border-radius: 5px;
+
+    }
+    .box2>.e {
+      width: 15%;
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      opacity: 0.7;
+
+      height: 30px;
+      border-radius: 5px;
+    }
+    .f {
+      
+      background: rgba(255, 255, 255, .2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.842);
+      position: absolute;
+      padding: 20px;
+      top: 41vh;
+      left: 10%;
+      right: 10%;
+      display: flex;
+      flex-direction: column;
+      
+      .content{
+        display: flex;
+      }
+     .profile {
+     
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       
+     }
+     .profile > div {
+       margin:  1%;
+     }
+     .img {
+      background: rgba(255, 255, 255, .8);
+      box-shadow: 0 5px 15px rgba(10, 10, 10, 0.842);
+        height: 10vh;
+        width: 10vh;
+        border-radius: 50%;
+     }
+     .bio {
+      background: rgba(255, 255, 255, .8);
+      box-shadow: 0 5px 15px rgba(10, 10, 10, 0.842);
+       height: 5vh;
+       margin-top: 2px;
+
+     }
+     .names {
+      
+       width: 60%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+     }
+     .pop1 {
+      background: rgba(255, 255, 255, .8);
+      box-shadow: 0 5px 15px rgba(10, 10, 10, 0.842);
+      width: 100%;
+    }
+    .pop2 {
+      background: rgba(255, 255, 255, .8);
+      box-shadow: 0 5px 15px rgba(10, 10, 10, 0.842);
+      width: 50%;
+    }
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      // justify-content: space-around;
+      background: rgba(182, 110, 110, 0.2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      padding: 5px;
+      
+      div {
+        margin: 0 auto;
+        margin: auto;
+        width: 16%;
+        height: 10vh;
+        background: red;
+        margin: 1px;
+        overflow: hidden;
+      }
+
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
